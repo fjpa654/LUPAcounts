@@ -1,0 +1,27 @@
+#socialPage {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialPagetitle {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    object-fit: cover;
+    height: 3rem;
+    margin: 0 0.75rem;
+}
